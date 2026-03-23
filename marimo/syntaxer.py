@@ -12,8 +12,8 @@ __generated_with = "0.21.1"
 app = marimo.App(width="columns")
 
 
-@app.cell(column=0, hide_code=True)
-def _(currentuser, get_token, github_view, login_view, mo):
+@app.cell(column=0)
+def _(currentuser, editor, get_token, github_view, login_view, mo):
     app_disp = None
     # --- 4. MAIN APP DISPLAY ---
     if currentuser is None:
@@ -23,7 +23,9 @@ def _(currentuser, get_token, github_view, login_view, mo):
     else:
         app_disp = mo.vstack([
             mo.md(f"# 🚀 Data Editor Active"),
-            mo.md(f"Logged in as **{currentuser}** | Connected to GitHub ✅")
+            mo.md(f"Logged in as **{currentuser}** | Connected to GitHub ✅"),
+            editor
+        
         ])
 
     app_disp
@@ -32,6 +34,22 @@ def _(currentuser, get_token, github_view, login_view, mo):
 
 
 @app.cell(column=1, hide_code=True)
+def _(mo):
+    mo.md("""
+    ## App assembly
+    """)
+    return
+
+
+@app.cell
+def _(mo, textchoice):
+    editor = mo.vstack([
+        textchoice
+    ])
+    return (editor,)
+
+
+@app.cell(hide_code=True)
 def _(mo):
     mo.md("""
     ## Imports
@@ -46,6 +64,46 @@ def _():
     from github import Github
 
     return Github, hashlib, mo
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md("""
+    ## Texts
+    """)
+    return
+
+
+@app.cell
+def _(mo):
+    textsdir = mo.notebook_location() / "public" / "texts"
+    return (textsdir,)
+
+
+@app.cell
+def _():
+    textsmenu = {"Hyginus": "hyginus.cex"}
+    return (textsmenu,)
+
+
+@app.cell
+def _(mo, textsmenu):
+    textchoice = mo.ui.dropdown(textsmenu,label="*Choose a text*:")
+    return (textchoice,)
+
+
+@app.cell
+def _(textchoice, textsdir):
+    textfile = None
+    if textchoice.value:
+        f = textsdir / textchoice.value
+    return (f,)
+
+
+@app.cell
+def _(f):
+    f
+    return
 
 
 @app.cell(hide_code=True)
