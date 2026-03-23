@@ -12,7 +12,7 @@ __generated_with = "0.21.1"
 app = marimo.App(width="columns")
 
 
-@app.cell(column=0)
+@app.cell(column=0, hide_code=True)
 def _(currentuser, editor, get_token, github_view, login_view, mo):
     app_disp = None
     # --- 4. MAIN APP DISPLAY ---
@@ -22,7 +22,7 @@ def _(currentuser, editor, get_token, github_view, login_view, mo):
         app_disp = github_view
     else:
         app_disp = mo.vstack([
-            mo.md(f"# 🚀 Data Editor Active"),
+            mo.md(f"# Syntax Editor"),
             mo.md(f"Logged in as **{currentuser}** | Connected to GitHub ✅"),
             editor
         
@@ -42,9 +42,10 @@ def _(mo):
 
 
 @app.cell
-def _(mo, textchoice):
+def _(mo, passagechoice, passagedisplay, textchoice):
     editor = mo.vstack([
-        textchoice
+        mo.hstack([textchoice, passagechoice],justify="center"),
+        passagedisplay
     ])
     return (editor,)
 
@@ -66,12 +67,48 @@ def _():
     return Github, hashlib, mo
 
 
+@app.cell
+def _(mo):
+    mo.md("""
+    ## Syntaxing
+    """)
+    return
+
+
+@app.cell
+def _(selectedpair):
+    currenturn = ""
+    currentpassage = ""
+    if selectedpair:
+        currenturn = selectedpair[0][0]
+        currentpassage = selectedpair[0][1]
+    return currentpassage, currenturn
+
+
+@app.cell
+def _(currentpassage, currenturn, mo):
+    passagedisplay = mo.vstack([mo.md(f"*Passage to analyze*: `{currenturn}`"),  mo.md(currentpassage)])
+    return (passagedisplay,)
+
+
 @app.cell(hide_code=True)
 def _(mo):
     mo.md("""
     ## Texts
     """)
     return
+
+
+@app.cell
+def _(mo, passages):
+    passagechoice = mo.ui.dropdown(passages,label="*Passage*:")
+    return (passagechoice,)
+
+
+@app.cell
+def _(mo, textsmenu):
+    textchoice = mo.ui.dropdown(textsmenu,label="*Choose a text*:")
+    return (textchoice,)
 
 
 @app.cell
@@ -87,23 +124,40 @@ def _():
 
 
 @app.cell
-def _(mo, textsmenu):
-    textchoice = mo.ui.dropdown(textsmenu,label="*Choose a text*:")
-    return (textchoice,)
-
-
-@app.cell
 def _(textchoice, textsdir):
-    textfile = None
+    pairs = []
     if textchoice.value:
-        f = textsdir / textchoice.value
-    return (f,)
+        textfile = str(textsdir / textchoice.value)
+        with open(textfile, 'r', encoding='utf-8') as file:
+            pairs = [line.strip().split("|") for line in file][2:]
+    return (pairs,)
 
 
 @app.cell
-def _(f):
-    f
-    return
+def _(pairs):
+    passages = []
+    baseurn = ""
+    if pairs:
+        passages = [pair[0].split(":")[-1] for pair in pairs]
+        pieces = pairs[0][0].split(":")
+        baseurn = ":".join(pieces[0:4]) + ":"
+    return baseurn, passages
+
+
+@app.cell
+def _(baseurn, passagechoice):
+    selectionurn = ""
+    if passagechoice.value: 
+        selectionurn = baseurn + passagechoice.value
+    return (selectionurn,)
+
+
+@app.cell
+def _(pairs, passagechoice, selectionurn):
+    selectedpair = []
+    if passagechoice.value:    
+        selectedpair = [pair for pair in pairs if pair[0] == selectionurn]
+    return (selectedpair,)
 
 
 @app.cell(hide_code=True)
