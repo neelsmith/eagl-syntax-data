@@ -1,0 +1,251 @@
+// Sentence 1
+//
+// Automatically appended from Pluto notebook "Analyze syntax of Greek text from a CTS source" (version 0.9.2)
+//
+#!sentences
+sentence|sequence|connector
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.a.1-1.1.a.9a|1|urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.a.2
+
+
+#!verbal_units
+vuid|syntactic_type|semantic_type|depth|sentence
+1.1.a.1-1.1.a.9a.1|independent clause|transitive|1|urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.a.1-1.1.a.9a
+1.1.a.1-1.1.a.9a.2|circumstantial participle|transitive|2|urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.a.1-1.1.a.9a
+
+
+#!tokens
+urn|tokentype|text|verbalunit|node1|node1relation|node2|node2relation
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.a.1|lexical|ἤκουσα|1.1.a.1-1.1.a.9a.1|2|unit verb|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.a.2|lexical|δέ|1.1.a.1-1.1.a.9a.1|nothing|nothing|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.a.3|lexical|ποτε|1.1.a.1-1.1.a.9a.1|1|adverbial|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.a.4|lexical|αὐτοῦ|1.1.a.1-1.1.a.9a.1|1|object|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.a.5|lexical|καὶ|1.1.a.1-1.1.a.9a.2|6|adverbial|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.a.6|lexical|περὶ|1.1.a.1-1.1.a.9a.2|8|attributive|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.a.7|lexical|οἰκονομίας|1.1.a.1-1.1.a.9a.2|6|object of preposition|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.a.8|lexical|τοιάδε|1.1.a.1-1.1.a.9a.2|9|object|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.a.9|lexical|διαλεγομένου|1.1.a.1-1.1.a.9a.2|4|unit verb|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.a.9a|ignore|:|0|nothing|nothing|nothing|nothing
+
+// Sentence 2
+//
+// Automatically appended from Pluto notebook "Analyze syntax of Greek text from a CTS source" (version 0.9.2)
+//
+#!sentences
+sentence|sequence|connector
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.1-1.1.b.22a|2|
+
+
+#!verbal_units
+vuid|syntactic_type|semantic_type|depth|sentence
+1.1.b.1-1.1.b.22a.1|independent clause|transitive|1|urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.1-1.1.b.22a
+1.1.b.1-1.1.b.22a.2|quote|transitive|2|urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.1-1.1.b.22a
+1.1.b.1-1.1.b.22a.3|quote|linking|3|urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.1-1.1.b.22a
+1.1.b.1-1.1.b.22a.4|subordinate clause|linking|4|urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.1-1.1.b.22a
+
+
+#!tokens
+urn|tokentype|text|verbalunit|node1|node1relation|node2|node2relation
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.1|lexical|εἰπέ|1.1.b.1-1.1.b.22a.2|3|unit verb|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.2|lexical|μοι|1.1.b.1-1.1.b.22a.2|1|dative|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.2a|ignore|,|0|nothing|nothing|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.3|lexical|ἔφη|1.1.b.1-1.1.b.22a.1|23|unit verb|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.3a|ignore|,|0|nothing|nothing|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.4|lexical|ὦ|1.1.b.1-1.1.b.22a.2|1|direct address|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.5|lexical|Κριτόβουλε|1.1.b.1-1.1.b.22a.2|4|direct address|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.5a|ignore|,|0|nothing|nothing|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.6|lexical|ἆρά|1.1.b.1-1.1.b.22a.3|1|unit verb|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.7|lexical|γε|1.1.b.1-1.1.b.22a.3|6|adverbial|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.8|lexical|ἡ|1.1.b.1-1.1.b.22a.3|9|article|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.9|lexical|οἰκονομία|1.1.b.1-1.1.b.22a.3|13|subject|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.10|lexical|ἐπιστήμης|1.1.b.1-1.1.b.22a.3|12|genitive|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.11|lexical|τινὸς|1.1.b.1-1.1.b.22a.3|10|attributive|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.12|lexical|ὄνομά|1.1.b.1-1.1.b.22a.3|13|predicate|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.13|lexical|ἐστιν|1.1.b.1-1.1.b.22a.3|6|unit verb|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.13a|ignore|,|0|nothing|nothing|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.14|lexical|ὥσπερ|1.1.b.1-1.1.b.22a.4|13|subordinate conjunction|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.15|lexical|ἡ|1.1.b.1-1.1.b.22a.4|16|article|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.16|lexical|ἰατρικὴ|1.1.b.1-1.1.b.22a.4|24|subject|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.17|lexical|καὶ|1.1.b.1-1.1.b.22a.4|19|conjunction|16|conjunction
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.18|lexical|ἡ|1.1.b.1-1.1.b.22a.4|19|article|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.19|lexical|χαλκευτικὴ|1.1.b.1-1.1.b.22a.4|24|subject|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.20|lexical|καὶ|1.1.b.1-1.1.b.22a.4|22|conjunction|19|conjunction
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.21|lexical|ἡ|1.1.b.1-1.1.b.22a.4|22|article|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.22|lexical|τεκτονική|1.1.b.1-1.1.b.22a.4|24|subject|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:1.1.b.22a|ignore|;|0|nothing|nothing|nothing|nothing
+
+
+/// HUNDREDS OF SENTENCES
+
+
+// Sentence 160  == 3.11
+//
+// Automatically appended from Pluto notebook "Analyze syntax of Greek text from a CTS source" (version 0.10.0)
+//
+#!sentences
+sentence|sequence|connector
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.58-3.11.76a|160|urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.59
+
+
+#!verbal_units
+vuid|syntactic_type|semantic_type|depth|sentence
+3.11.58-3.11.76a.1|independent clause|transitive|1|urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.58-3.11.76a
+3.11.58-3.11.76a.2|subordinate clause|transitive|2|urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.58-3.11.76a
+3.11.58-3.11.76a.3|circumstantial participle|transitive|3|urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.58-3.11.76a
+
+
+#!tokens
+urn|tokentype|text|verbalunit|node1|node1relation|node2|node2relation
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.58|lexical|εἰ|3.11.58-3.11.76a.2|19|conjunction|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.59|lexical|δὲ|nothing|nothing|nothing|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.60|lexical|μὴ|3.11.58-3.11.76a.3|4|adverbial|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.61|lexical|διδάσκων|3.11.58-3.11.76a.3|10|unit verb|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.62|lexical|τὰ|3.11.58-3.11.76a.3|6|article|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.63|lexical|καλὰ|3.11.58-3.11.76a.3|4|object|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.64|lexical|κἀγαθὰ|3.11.58-3.11.76a.3|4|object|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.65|lexical|ἀνεπιστήμονι|3.11.58-3.11.76a.2|10|object|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.66|lexical|τούτων|3.11.58-3.11.76a.2|8|genitive|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.67|lexical|χρῷτο|3.11.58-3.11.76a.2|1|unit verb|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.67a|ignore|,|0|nothing|nothing|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.68|lexical|ἆρ'|3.11.58-3.11.76a.1|nothing|nothing|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.69|lexical|οὐ|3.11.58-3.11.76a.1|19|adverbial|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.70|lexical|δικαίως|3.11.58-3.11.76a.1|19|adverbial|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.71|lexical|ἂν|3.11.58-3.11.76a.1|19|modal particle|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.72|lexical|ὁ|3.11.58-3.11.76a.1|16|article|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.73|lexical|ἀνὴρ|3.11.58-3.11.76a.1|19|subject|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.74|lexical|τὴν|3.11.58-3.11.76a.1|18|article|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.75|lexical|αἰτίαν|3.11.58-3.11.76a.1|19|object|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.76|lexical|ἔχοι|3.11.58-3.11.76a.1|2|unit verb|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:3.11.76a|ignore|;|0|nothing|nothing|nothing|nothing
+
+// Sentence 161
+// Sentence 162
+// Sentence 163
+// Sentence 164
+// Sentence 165
+// Sentence 166
+// Sentence 167
+// Sentence 168
+// Sentence 169
+
+// Sentence 170
+// Sentence 171
+// Sentence 172
+// Sentence 173
+// Sentence 174
+// Sentence 175
+// Sentence 176
+// Sentence 177
+// Sentence 178
+// Sentence 179
+
+// Sentence 180
+// Sentence 181
+// Sentence 182
+// Sentence 183
+// Sentence 184
+// Sentence 185
+// Sentence 186
+// Sentence 187
+// Sentence 188
+// Sentence 189
+
+// Sentence 190
+// Sentence 191
+// Sentence 192
+// Sentence 193
+// Sentence 194
+// Sentence 195
+// Sentence 196
+// Sentence 197
+// Sentence 198
+// Sentence 199
+
+
+
+
+
+// Sentence 276 == 6.1
+//
+// Automatically appended from Pluto notebook "Analyze syntax of Greek text from a CTS source" (version 0.9.2)
+//
+#!sentences
+sentence|sequence|connector
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.1-6.1.31a|276|urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.1
+
+
+#!verbal_units
+vuid|syntactic_type|semantic_type|depth|sentence
+6.1.1-6.1.31a.1|independent clause|transitive|1|urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.1-6.1.31a
+6.1.1-6.1.31a.2|quote|intransitive|2|urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.1-6.1.31a
+6.1.1-6.1.31a.3|circumstantial participle|transitive|2|urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.1-6.1.31a
+6.1.1-6.1.31a.4|infinitive in indirect statement|transitive|3|urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.1-6.1.31a
+6.1.1-6.1.31a.5|circumstantial participle|linking|4|urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.1-6.1.31a
+
+
+#!tokens
+urn|tokentype|text|verbalunit|node1|node1relation|node2|node2relation
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.1|lexical|ἀλλὰ|6.1.1-6.1.31a.1|nothing|nothing|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.2|lexical|ταῦτα|6.1.1-6.1.31a.2|10|object|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.3|lexical|μέν|6.1.1-6.1.31a.2|2|adverbial|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.3a|ignore|,|0|nothing|nothing|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.4|lexical|ἔφη|6.1.1-6.1.31a.1|1|unit verb|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.4a|ignore|,|0|nothing|nothing|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.5|lexical|ὦ|6.1.1-6.1.31a.1|4|direct address|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.6|lexical|Σώκρατες|6.1.1-6.1.31a.1|5|direct address|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.6a|ignore|,|0|nothing|nothing|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.7|lexical|καλῶς|6.1.1-6.1.31a.2|9|adverbial|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.8|lexical|μοι|6.1.1-6.1.31a.2|9|dative|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.9|lexical|δοκεῖς|6.1.1-6.1.31a.2|4|unit verb|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.10|lexical|λέγειν|6.1.1-6.1.31a.2|9|complementary infinitive|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.11|lexical|κελεύων|6.1.1-6.1.31a.3|10|unit verb|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.12|lexical|πειρᾶσθαι|6.1.1-6.1.31a.4|11|unit verb|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.13|lexical|σὺν|6.1.1-6.1.31a.4|16|adverbial|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.14|lexical|τοῖς|6.1.1-6.1.31a.4|15|article|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.15|lexical|θεοῖς|6.1.1-6.1.31a.4|13|object of preposition|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.16|lexical|ἄρχεσθαι|6.1.1-6.1.31a.4|12|complementary infinitive|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.17|lexical|παντὸς|6.1.1-6.1.31a.4|18|attributive|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.18|lexical|ἔργου|6.1.1-6.1.31a.4|16|object|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.18a|ignore|,|0|nothing|nothing|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.19|lexical|ὡς|6.1.1-6.1.31a.5|23|adverbial|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.20|lexical|τῶν|6.1.1-6.1.31a.5|21|article|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.21|lexical|θεῶν|6.1.1-6.1.31a.5|23|subject|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.22|lexical|κυρίων|6.1.1-6.1.31a.5|23|predicate|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.23|lexical|ὄντων|6.1.1-6.1.31a.5|11|unit verb|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.24|lexical|οὐδὲν|6.1.1-6.1.31a.5|25|adverbial|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.25|lexical|ἧττον|6.1.1-6.1.31a.5|30|adverbial|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.26|lexical|τῶν|6.1.1-6.1.31a.5|27|article|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.27|lexical|εἰρηνικῶν|6.1.1-6.1.31a.5|26|attributive|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.28|lexical|ἢ|6.1.1-6.1.31a.5|30|conjunction|27|conjunction
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.29|lexical|τῶν|6.1.1-6.1.31a.5|31|article|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.30|lexical|πολεμικῶν|6.1.1-6.1.31a.5|29|attributive|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.31|lexical|ἔργων|6.1.1-6.1.31a.5|22|genitive|nothing|nothing
+urn:cts:greekLit:tlg0032.tlg003.perseus-grc2_tokens:6.1.31a|ignore|.|0|nothing|nothing|nothing|nothing
+
+
+// Sentence 277
+// Sentence 278
+// Sentence 279
+
+
+// Sentence 280
+// Sentence 281
+// Sentence 282
+// Sentence 283
+// Sentence 284
+// Sentence 285
+// Sentence 286
+// Sentence 287
+// Sentence 288
+// Sentence 289
+
+// Sentence 301 == 7.1
+// Sentence 396 == 8.1
+// Sentence 445 == 9.1
+// Sentence 482 == 10.1
+// Sentence 513 == 11.1
+// Sentence 571 == 12.1
+// Sentence 622 == 13.1
+// Sentence 645 == 14.1
+// Sentence 661 == 15.1
+// Sentence 690 == 16.1
+// Sentence 722 == 17.1
