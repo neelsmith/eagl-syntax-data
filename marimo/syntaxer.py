@@ -294,7 +294,7 @@ def _():
     return Github, hashlib, mo
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md("""
     ## Syntaxing
